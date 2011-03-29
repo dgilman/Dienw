@@ -1,0 +1,8 @@
+This is a fork of [dienw](https://github.com/mzeltner/Dienw) with MediaWiki formatting support.
+
+# Installation
+
+* Get [wikimarkup](https://github.com/dcramer/py-wikimarkup)
+* dienw.py expects to be in the root directory of the domain.
+* dienw.py blindly git commits to whatever directory it is in.  You might want to move it if you don't want this repo cluttered.  If you copy it out don't forget the .dienw folder!
+* Example Apache mod_rewrite rules are in the htaccess file.  Setting up http basic auth puts names and emails to commits.

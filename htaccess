@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteRule ^$ dienw.py
+RewriteRule ^(@[a-z]+/[A-Za-z0-9-?=&_]+)$ dienw.py/$1
+RewriteRule ^([A-Za-z0-9-?=&_]+)$ dienw.py/$1
+
+# if you set up basic auth dienw will attribute commits to you in git
